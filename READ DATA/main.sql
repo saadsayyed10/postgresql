@@ -15,3 +15,6 @@ SELECT * FROM person ORDER BY id;
 
 -- Get by sorting desc
 SELECT * FROM person ORDER BY id DESC;
+
+-- Get sorted countries without duplication values
+SELECT DISTINCT country FROM mock_data ORDER BY country;
