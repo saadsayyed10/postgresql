@@ -9,3 +9,9 @@ SELECT (firstName, lastName, email) from person;
 
 -- Get no column from a table
 SELECT from person;
+
+-- Get by sorting asc (default)
+SELECT * FROM person ORDER BY id;
+
+-- Get by sorting desc
+SELECT * FROM person ORDER BY id DESC;
